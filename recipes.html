@@ -15,11 +15,13 @@
     </head>
 <body>
 <header>
-    <img src="wired-brain-coffee-logo-250.png"
-         alt="Wired Brain Coffee Logo"
-         srcset="wired-brain-coffee-logo-250.jpg 250w, wired-brain-coffee-logo.jpg 500w"
-         sizes="(max-width: 500px) 25vw "
-    />
+    <picture style="float: left">
+    <source type="image/png" srcset="wired-brain-coffee-logo-250.png, wired-brain-coffee-logo.png"
+            sizes="(max-width: 500px) 15vw, 25vw"/>
+    <source type="image/jpeg" srcset="wired-brain-coffee-logo-250.jpg, wired-brain-coffee-logo.jpg"
+            sizes="(max-width: 500px) 15vw, 25vw"/>
+    <img src="wired-brain-coffee-logo.png"/>
+    </picture>
     <div style="float: left; margin-left: 15px">
         <a href="https://pluralsight.com" target="_blank" rel="noreferrer noopener">Pluralsight
             <h2>Wired Brain Coffee Extras</h2>
